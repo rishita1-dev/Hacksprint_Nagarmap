@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "corridors",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "CORRIDOR_ID": "C-ROAD-01", "NAME": "Central Avenue widening (west section)", "SCENARIO_TYPE": "road_expansion", "STATUS": "Proposed", "DESCRIPTION": "Widens Central Avenue to 18 m between x=-10 and x=180 (synthetic grid)." }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 77.200421331533093, 28.594921740953112 ], [ 77.200424714515123, 28.595084097858827 ], [ 77.198482956111775, 28.595115600592521 ], [ 77.198479576109179, 28.594953243475391 ], [ 77.200421331533093, 28.594921740953112 ] ] ] } },
+{ "type": "Feature", "properties": { "CORRIDOR_ID": "C-ROAD-02", "NAME": "East Lane widening (north section)", "SCENARIO_TYPE": "road_expansion", "STATUS": "Proposed", "DESCRIPTION": "Widens East Lane to 16 m between y=-10 and y=140 (synthetic grid)." }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 77.201047128697454, 28.594045386055242 ], [ 77.201075328058238, 28.59539835974412 ], [ 77.200911811266565, 28.595401014487518 ], [ 77.200883613996581, 28.594048040650176 ], [ 77.201047128697454, 28.594045386055242 ] ] ] } },
+{ "type": "Feature", "properties": { "CORRIDOR_ID": "C-TRANSIT-01", "NAME": "Spine Line transit corridor (south section)", "SCENARIO_TYPE": "transit_corridor", "STATUS": "Proposed", "DESCRIPTION": "18 m dedicated transit right-of-way along Spine Road from y=140 to y=250." }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 77.199859171390813, 28.595418099684284 ], [ 77.199879840753241, 28.596410281011202 ], [ 77.199695882451039, 28.596413266058541 ], [ 77.199675214813624, 28.595421084609203 ], [ 77.199859171390813, 28.595418099684284 ] ] ] } },
+{ "type": "Feature", "properties": { "CORRIDOR_ID": "C-BASE-01", "NAME": "Baseline - no planned corridor overlap", "SCENARIO_TYPE": "baseline", "STATUS": "Reference", "DESCRIPTION": "Reference corridor on open land east of the parcel grid; no overlaps expected." }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 77.202142513520045, 28.594117826579353 ], [ 77.202187656009684, 28.59628258271913 ], [ 77.201983258459137, 28.596285902887402 ], [ 77.201938120151183, 28.594121146450547 ], [ 77.202142513520045, 28.594117826579353 ] ] ] } }
+]
+}

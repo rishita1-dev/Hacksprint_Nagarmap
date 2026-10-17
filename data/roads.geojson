@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "roads",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32643" } },
+"features": [
+{ "type": "Feature", "properties": { "ROAD_ID": "R-01", "NAME": "Central Avenue", "CLASS": "Arterial" }, "geometry": { "type": "LineString", "coordinates": [ [ 714970.0, 3165095.0 ], [ 715320.0, 3165095.0 ] ] } },
+{ "type": "Feature", "properties": { "ROAD_ID": "R-02", "NAME": "Spine Road", "CLASS": "Arterial" }, "geometry": { "type": "LineString", "coordinates": [ [ 715115.0, 3164970.0 ], [ 715115.0, 3165280.0 ] ] } },
+{ "type": "Feature", "properties": { "ROAD_ID": "R-03", "NAME": "East Lane", "CLASS": "Collector" }, "geometry": { "type": "LineString", "coordinates": [ [ 715235.0, 3164970.0 ], [ 715235.0, 3165280.0 ] ] } },
+{ "type": "Feature", "properties": { "ROAD_ID": "R-04", "NAME": "North Lane", "CLASS": "Local" }, "geometry": { "type": "LineString", "coordinates": [ [ 714970.0, 3165145.0 ], [ 715320.0, 3165145.0 ] ] } },
+{ "type": "Feature", "properties": { "ROAD_ID": "R-05", "NAME": "West Lane", "CLASS": "Local" }, "geometry": { "type": "LineString", "coordinates": [ [ 715055.0, 3164970.0 ], [ 715055.0, 3165280.0 ] ] } }
+]
+}

@@ -1,0 +1,5 @@
+# local OSM downloads (raw Overpass JSON); regenerate with scripts/fetch_delhi_data.py
+data/cache/*.json
+.venv/
+__pycache__/
+.pytest_cache/
